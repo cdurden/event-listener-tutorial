@@ -8,5 +8,6 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
 AnonymousFunctionb43910f50100	main.js	/^wordElements.forEach(function (element) {$/;"	f
+AnonymousFunctionb43910f50200	main.js	/^    element.addEventListener("click", function () {$/;"	f
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
 wordElements	main.js	/^var wordElements = document.querySelectorAll("span");$/;"	v
