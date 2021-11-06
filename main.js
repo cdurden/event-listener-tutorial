@@ -8,6 +8,7 @@ function addEventListeners(modCode) {
     document.addEventListener("click", function (e) {
         if (mod) {
             console.log("Mod active");
+            e.preventDefault();
         } else {
             console.log("Mod inactive");
         }
