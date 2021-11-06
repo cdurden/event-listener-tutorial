@@ -11,6 +11,10 @@ AnonymousFunctionb43910f50100	main.js	/^    document.addEventListener("click", f
 AnonymousFunctionb43910f50200	main.js	/^    document.addEventListener("keydown", function (e) {$/;"	f
 AnonymousFunctionb43910f50300	main.js	/^    document.addEventListener("keyup", function (e) {$/;"	f
 addEventListeners	main.js	/^function addEventListeners(modCode) {$/;"	f
+conditional	simpleClosure.js	/^    function conditional(x, f) {$/;"	f	function:makeConditionalClosure
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
+f	simpleClosure.js	/^function f(x) {$/;"	f
+makeConditionalClosure	simpleClosure.js	/^function makeConditionalClosure() {$/;"	f
 noop	main.js	/^    function noop(e) {}$/;"	f	function:addEventListeners
+toggle	simpleClosure.js	/^    function toggle() {$/;"	f	function:makeConditionalClosure
 wordElements	main.js	/^var wordElements = document.querySelectorAll("span");$/;"	v
