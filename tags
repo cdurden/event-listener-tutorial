@@ -7,7 +7,8 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
-AnonymousFunctionb43910f50100	main.js	/^wordElements.forEach(function (element) {$/;"	f
+AnonymousFunctionb43910f50100	main.js	/^document.addEventListener("click", function (e) {$/;"	f
+alt-click	index.html	/^        <input type="checkbox" id="alt-click" \/>Disable default link behavior<br \/>$/;"	I
 conditional	simpleClosure.js	/^    function conditional(x, f) {$/;"	f	function:makeConditionalClosure
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
 f	simpleClosure.js	/^function f(x) {$/;"	f
