@@ -8,5 +8,9 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
 AnonymousFunctionb43910f50100	main.js	/^wordElements.forEach(function (element) {$/;"	f
+conditional	simpleClosure.js	/^    function conditional(x, f) {$/;"	f	function:makeConditionalClosure
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
+f	simpleClosure.js	/^function f(x) {$/;"	f
+makeConditionalClosure	simpleClosure.js	/^function makeConditionalClosure() {$/;"	f
+toggle	simpleClosure.js	/^    function toggle() {$/;"	f	function:makeConditionalClosure
 wordElements	main.js	/^var wordElements = document.querySelectorAll("span");$/;"	v
