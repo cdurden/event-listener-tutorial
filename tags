@@ -8,10 +8,19 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
 AnonymousFunctionb43910f50100	main.js	/^document.addEventListener("click", function (e) {$/;"	f
+AnonymousFunctionb43910f50200	main.js	/^document.addEventListener("keydown", function (e) {$/;"	f
+AnonymousFunctionb43910f50300	main.js	/^document.addEventListener("keyup", function (e) {$/;"	f
 alt-click	index.html	/^        <input type="checkbox" id="alt-click" \/>Disable default link behavior<br \/>$/;"	I
+changeBy	counter.js	/^    function changeBy(val) {$/;"	f	function:makeCounter
+changeBy	counterClosure.js	/^    function changeBy(val) {$/;"	f	function:makeCounter
 conditional	simpleClosure.js	/^    function conditional(x, f) {$/;"	f	function:makeConditionalClosure
+count	counter.js	/^var count = 0;$/;"	v
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
 f	simpleClosure.js	/^function f(x) {$/;"	f
 makeConditionalClosure	simpleClosure.js	/^function makeConditionalClosure() {$/;"	f
+makeCounter	counter.js	/^var makeCounter = function () {$/;"	f
+makeCounter	counterClosure.js	/^var makeCounter = function () {$/;"	f
+mod	main.js	/^const mod = false;$/;"	C
+modCode	main.js	/^const modCode = "ControlLeft";$/;"	C
 toggle	simpleClosure.js	/^    function toggle() {$/;"	f	function:makeConditionalClosure
 wordElements	main.js	/^var wordElements = document.querySelectorAll("span");$/;"	v

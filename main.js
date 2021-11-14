@@ -13,9 +13,10 @@ document.addEventListener("click", function (e) {
     }
 });
 
-/*
 const mod = false;
+
 const modCode = "ControlLeft";
+
 document.addEventListener("keydown", function (e) {
     if (e.code === modCode) {
         mod = true;
@@ -26,4 +27,5 @@ document.addEventListener("keyup", function (e) {
         mod = false;
     }
 });
-*/
+/*
+ */
