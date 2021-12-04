@@ -1,4 +1,5 @@
-var n = 0;
+var nTimers = 0;
+var secondsRemaining = 60;
 function createTimerElmt(n) {
     const timersContainer = document.getElementById("timers");
     const timerContainer = document.createElement("div");
@@ -14,9 +15,10 @@ function createTimerElmt(n) {
     timerContainer.appendChild(timerMessage);
     return [timeRemainingElmt, timerMessage];
 }
-function addTimer(secondsRemaining) {
-    n += 1;
-    const [timeRemainingElmt, timerMessage] = createTimerElmt(n);
+function addTimer() {
+    nTimers += 1;
+    const [timeRemainingElmt, timerMessage] = createTimerElmt(nTimers);
+    /*
     timeRemainingElmt.innerHTML = secondsRemaining;
     const timerInterval = setInterval(function () {
         secondsRemaining -= 1;
@@ -26,11 +28,14 @@ function addTimer(secondsRemaining) {
         }
         timeRemainingElmt.innerHTML = secondsRemaining;
     }, 1000);
+    */
 }
 document.addEventListener("DOMContentLoaded", function () {
     document
         .getElementById("addTimerButton")
         .addEventListener("click", function () {
-            addTimer(document.getElementById("timerMinutesInput").value * 60);
+            secondsRemaining =
+                document.getElementById("timerMinutesInput").value * 60;
+            addTimer();
         });
 });

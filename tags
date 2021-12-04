@@ -7,13 +7,12 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
-AnonymousFunction5bf3bfe40100	timers.js	/^    const timerInterval = setInterval(function () {$/;"	f	function:addTimer
-AnonymousFunction5bf3bfe40200	timers.js	/^document.addEventListener("DOMContentLoaded", function () {$/;"	f
-AnonymousFunction5bf3bfe40300	timers.js	/^        .addEventListener("click", function () {$/;"	f
+AnonymousFunction5bf3bfe40100	timers.js	/^document.addEventListener("DOMContentLoaded", function () {$/;"	f
+AnonymousFunction5bf3bfe40200	timers.js	/^        .addEventListener("click", function () {$/;"	f
 AnonymousFunctionb43910f50100	main.js	/^document.addEventListener("click", function (e) {$/;"	f
 AnonymousFunctionb43910f50200	main.js	/^document.addEventListener("keydown", function (e) {$/;"	f
 AnonymousFunctionb43910f50300	main.js	/^document.addEventListener("keyup", function (e) {$/;"	f
-addTimer	timers.js	/^function addTimer(secondsRemaining) {$/;"	f
+addTimer	timers.js	/^function addTimer() {$/;"	f
 addTimerButton	timers.html	/^            <button id="addTimerButton">Add timer<\/button>$/;"	I
 alt-click	index.html	/^        <input type="checkbox" id="alt-click" \/>Disable default link behavior<br \/>$/;"	I
 changeBy	counter.js	/^    function changeBy(val) {$/;"	f	function:makeCounter
@@ -28,7 +27,8 @@ makeCounter	counter.js	/^var makeCounter = function () {$/;"	f
 makeCounter	counterClosure.js	/^var makeCounter = function () {$/;"	f
 mod	main.js	/^const mod = false;$/;"	C
 modCode	main.js	/^const modCode = "ControlLeft";$/;"	C
-n	timers.js	/^var n = 0;$/;"	v
+nTimers	timers.js	/^var nTimers = 0;$/;"	v
+secondsRemaining	timers.js	/^var secondsRemaining = 60;$/;"	v
 timerMinutesInput	timers.html	/^            <input type="text" id="timerMinutesInput" value="1" \/> minutes$/;"	I
 timers	timers.html	/^        <div id="timers"><\/div>$/;"	I
 toggle	simpleClosure.js	/^    function toggle() {$/;"	f	function:makeConditionalClosure
