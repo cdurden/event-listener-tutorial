@@ -7,20 +7,26 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
-AnonymousFunction5bf3bfe40100	timers.js	/^    const timerInterval = setInterval(function () {$/;"	f	function:addTimer
-AnonymousFunction5bf3bfe40200	timers.js	/^document.addEventListener("DOMContentLoaded", function () {$/;"	f
-AnonymousFunction5bf3bfe40300	timers.js	/^        .addEventListener("click", function () {$/;"	f
+AnonymousFunction3658211f0100	beats.js	/^    audioObj.addEventListener("canplaythrough", function (event) {$/;"	f
+AnonymousFunction3658211f0200	beats.js	/^        const beatInterval = setInterval(function () {$/;"	f	function:AnonymousFunction3658211f0100
+AnonymousFunction3658211f0300	beats.js	/^        clearBeatButton.addEventListener("click", function () {$/;"	f
+AnonymousFunction3658211f0400	beats.js	/^document.addEventListener("DOMContentLoaded", function () {$/;"	f
+AnonymousFunction3658211f0500	beats.js	/^    urlBeatMap.forEach(function (beat, url) {$/;"	f
+AnonymousFunction3658211f0600	beats.js	/^        .addEventListener("click", function () {$/;"	f
 AnonymousFunctionb43910f50100	main.js	/^document.addEventListener("click", function (e) {$/;"	f
 AnonymousFunctionb43910f50200	main.js	/^document.addEventListener("keydown", function (e) {$/;"	f
 AnonymousFunctionb43910f50300	main.js	/^document.addEventListener("keyup", function (e) {$/;"	f
-addTimer	timers.js	/^function addTimer(secondsRemaining) {$/;"	f
-addTimerButton	timers.html	/^            <button id="addTimerButton">Add timer<\/button>$/;"	I
+addBeat	beats.js	/^function addBeat(bpm, url) {$/;"	f
+addBeatButton	beats.html	/^            <button id="addBeatButton">Add beat<\/button>$/;"	I
 alt-click	index.html	/^        <input type="checkbox" id="alt-click" \/>Disable default link behavior<br \/>$/;"	I
+beatSelectorInput	beats.html	/^            <select id="beatSelectorInput"><\/select>$/;"	I
+beats	beats.html	/^        <div id="beats"><\/div>$/;"	I
+bpmInput	beats.html	/^            <input type="text" id="bpmInput" value="60" \/>$/;"	I
 changeBy	counter.js	/^    function changeBy(val) {$/;"	f	function:makeCounter
 changeBy	counterClosure.js	/^    function changeBy(val) {$/;"	f	function:makeCounter
 conditional	simpleClosure.js	/^    function conditional(x, f) {$/;"	f	function:makeConditionalClosure
 count	counter.js	/^var count = 0;$/;"	v
-createTimerElmt	timers.js	/^function createTimerElmt(n) {$/;"	f
+createBeatElmt	beats.js	/^function createBeatElmt(n, bpm, url) {$/;"	f
 event-listener-tutorial	README.md	/^# event-listener-tutorial$/;"	c
 f	simpleClosure.js	/^function f(x) {$/;"	f
 makeConditionalClosure	simpleClosure.js	/^function makeConditionalClosure() {$/;"	f
@@ -28,8 +34,7 @@ makeCounter	counter.js	/^var makeCounter = function () {$/;"	f
 makeCounter	counterClosure.js	/^var makeCounter = function () {$/;"	f
 mod	main.js	/^const mod = false;$/;"	C
 modCode	main.js	/^const modCode = "ControlLeft";$/;"	C
-n	timers.js	/^var n = 0;$/;"	v
-timerMinutesInput	timers.html	/^            <input type="text" id="timerMinutesInput" value="1" \/> minutes$/;"	I
-timers	timers.html	/^        <div id="timers"><\/div>$/;"	I
+n	beats.js	/^var n = 0;$/;"	v
 toggle	simpleClosure.js	/^    function toggle() {$/;"	f	function:makeConditionalClosure
+urlBeatMap	beats.js	/^const urlBeatMap = new Map([$/;"	C
 wordElements	main.js	/^var wordElements = document.querySelectorAll("span");$/;"	v
