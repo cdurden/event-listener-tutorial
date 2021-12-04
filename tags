@@ -19,6 +19,7 @@ AnonymousFunctionb43910f50300	main.js	/^document.addEventListener("keyup", funct
 addBeat	beats.js	/^function addBeat(bpm, url) {$/;"	f
 addBeatButton	beats.html	/^            <button id="addBeatButton">Add beat<\/button>$/;"	I
 alt-click	index.html	/^        <input type="checkbox" id="alt-click" \/>Disable default link behavior<br \/>$/;"	I
+audioObj	beats.js	/^var audioObj;$/;"	v
 beatSelectorInput	beats.html	/^            <select id="beatSelectorInput"><\/select>$/;"	I
 beats	beats.html	/^        <div id="beats"><\/div>$/;"	I
 bpmInput	beats.html	/^            <input type="text" id="bpmInput" value="60" \/>$/;"	I
