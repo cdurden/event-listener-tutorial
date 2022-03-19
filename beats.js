@@ -1,5 +1,5 @@
 var n = 0;
-var audioObj;
+
 const urlBeatMap = new Map([
     [
         "http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/15-electronic%20snare.wav",
@@ -30,6 +30,7 @@ function createBeatElmt(n, bpm, url) {
 }
 function addBeat(bpm, url) {
     n += 1;
+    var audioObj;
     audioObj = new Audio(url);
     const [beatContainer, clearBeatButton] = createBeatElmt(n, bpm, url);
     audioObj.addEventListener("canplaythrough", function (event) {
